@@ -1,0 +1,10 @@
+.epic-button {
+  background-color: #ec0336;
+  padding: 2px;
+  color: #fff !important;
+  height: 25px;
+  font-weight: bold;
+  font-size: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  /* top: 0 !important; */
+}

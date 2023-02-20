@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/images/icon128.png",
+         "16": "/images/icon16.png",
+         "32": "/images/icon32.png",
+         "48": "/images/icon48.png"
+      },
+      "default_title": "Show EPIC on Steam"
+   },
+   "content_scripts": [ {
+      "css": [ "extstyles.css" ],
+      "js": [ "data.js", "contentScript.js" ],
+      "matches": [ "https://store.steampowered.com/*" ]
+   } ],
+   "description": "Shows if you can play games in epic Now while you are in steam website",
+   "icons": {
+      "128": "/images/icon128.png",
+      "16": "/images/icon16.png",
+      "32": "/images/icon32.png",
+      "48": "/images/icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "Show EPIC Now on Steam",
+   "permissions": [  ],
+   "version": "1.0"
+}
